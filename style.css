@@ -1,0 +1,70 @@
+/* body  */
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+.bodyPro{
+    background-color: #282E3A;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.time{
+    place-content: center;
+    width: 100%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.myClock
+{
+    width:100%;
+    max-width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(48, 47, 47, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+.hourBg
+{
+    background-color: #2dcb74;
+    text-align: center;
+
+}
+.minutesBg{
+    
+    background-color: #f6bc58;
+    text-align: center;
+}
+.secondsBg{
+    background-color: #f95658;
+    
+    text-align: center;
+}
+/* Day Date Meridiem */
+.dateAndDay{
+    justify-content: space-around;
+    width: 100%;
+    max-width: 420px;
+    margin: 40px auto;
+    color: #9e947e;
+    background-color: #39404e;
+    border-radius: 10px;
+
+}
+
+/* footer  */
+.footer {
+    color: white;
+    background-color: #9e947e;
+    text-align: center;
+    font-family: inherit;
+    width: 100%;
+    opacity: 1.5;
+    margin-bottom: 7px;
+    position: absolute;
+    bottom: 0;
+  }
